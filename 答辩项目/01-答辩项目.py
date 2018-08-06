@@ -1,5 +1,5 @@
-import random #插入随机数 
-import time #插入随机时间
+import random
+import time
 print('欢迎使用QQ'.center(50,'*'))
 print('请先注册你的QQ号'.center(50,' '))
 while True:
@@ -145,9 +145,9 @@ def xg():#修改
 def sc():#删除
 	b3 = input('请输入你要删除的名字')
 	for i in list:
-		for position,i in enumerate(list):
-			list.pop(position) #删除字典所在列表的索引值
-			print('删除成功')
+			for position,i in enumerate(list):
+					list.pop(position) #删除字典所在列表的索引值
+					print('删除成功')
 
 
 
