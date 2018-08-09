@@ -23,3 +23,4 @@ for i in range(1,31):
 			p = p*0.5
 		money = money + p
 print("一共花了%.02f元"%money)
+
